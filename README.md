@@ -13,7 +13,6 @@ Este é um projeto de um chatbot desenvolvido em Java, criado para auxiliar no a
 Antes de executar o projeto, certifique-se de ter instalado:
 
 - [Java JDK 11+](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
-- [Maven](https://maven.apache.org/) (opcional, para gerenciamento de dependências)
 
 ## Como Executar
 
