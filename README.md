@@ -1,6 +1,6 @@
 # Chatbot em Java
 
-Este é um projeto de um chatbot desenvolvido em Java, criado para auxiliar no atendimento a clientes que desejam comprar um site.
+Este é um projeto de um chatbot desenvolvido em Java, criado para auxiliar no atendimento a clientes que desejam comprar um site via whatsapp.
 
 ## Funcionalidades
 
