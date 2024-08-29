@@ -2,7 +2,6 @@ import java.util.Scanner;
 
 public class ChatBot {
     private Scanner scanner = new Scanner(System.in);
-   
     public static void main(String[] args) throws Exception {
         //instancia do bot na class ChatBot
         ChatBot bot = new ChatBot();
@@ -18,7 +17,6 @@ public class ChatBot {
     public void chat() {
         //Receber comando do usuario
         Scanner scanner = new Scanner(System.in);
-
         // Verificar comando do usuario
         while (true) {  
             // Captura a entrada do usuário
@@ -45,8 +43,7 @@ public class ChatBot {
             resposta = "Eu sou apenas um programa, mas você pode verificar a previsão do tempo online!";
         } else {
             resposta = "Desculpe, não entendi. Pode reformular?";
-        }
-        
+        }      
         // Exibe a resposta
         System.out.println(resposta);
     }
