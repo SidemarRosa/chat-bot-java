@@ -22,7 +22,7 @@ public class ChatBot {
     }
     // Método para iniciar a conversa
     public void iniciarConversa() {
-        System.out.print("Digite 'oi' ou 'olá' para iniciar: ");
+        System.out.print("Digite 'oi' ou 'ola' para iniciar a conversa: ");
         String input = scanner.nextLine().trim().toLowerCase();
 
         while (!input.equals("oi") && !input.equals("ola")) {
@@ -156,7 +156,7 @@ public class ChatBot {
             System.out.println("Solicitação de orçamento cancelada.");
         }
     }
-    // Método para solicitar orçamento sub menu dos sistemas web
+    /*  Método para solicitar orçamento sub menu dos sistemas web
     private void solicitarOrcamentoSistemasWeb() {
         System.out.println("\nSelecione o tipo de sistema web:");
         System.out.println("1 - ERP");
@@ -193,7 +193,7 @@ public class ChatBot {
                 System.out.println("Opção inválida. Retornando ao menu de sistemas web.");
                 solicitarOrcamentoSistemasWeb();
         }
-    }
+    } */
     // Método para agendar reunião
     public void agendarReuniao() {
         System.out.println("\nVocê escolheu: Agendar uma reunião.");
