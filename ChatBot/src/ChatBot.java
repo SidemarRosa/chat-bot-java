@@ -15,8 +15,21 @@ public class ChatBot {
     }
     public static void main(String[] args) {
         ChatBot bot = new ChatBot();
-        bot.saudar(); // Exibe mensagem de boas-vindas
-        bot.chat();   // Inicia o chatbot
+        while (true) {
+            bot.iniciarConversa();
+            bot.chat();
+        }
+    }
+    // Método para iniciar a conversa
+    public void iniciarConversa() {
+        System.out.print("Digite 'oi' ou 'olá' para iniciar: ");
+        String input = scanner.nextLine().trim().toLowerCase();
+
+        while (!input.equals("oi") && !input.equals("ola")) {
+            System.out.print("Comando não reconhecido. Por favor, digite 'oi' ou 'olá' para iniciar: ");
+            input = scanner.nextLine().trim().toLowerCase();
+        }
+        saudar();
     }
     // Método de saudação
     public void saudar() {
